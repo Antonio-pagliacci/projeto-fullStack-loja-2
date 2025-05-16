@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.hero {
+    background: url(/IMG/hero-img.webp) no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.carrinho {
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    width: 500px;
+    margin-bottom: 700px;
+  
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.carrinho button {
+    
+    margin-left: 15px;
+}
+
+
+
