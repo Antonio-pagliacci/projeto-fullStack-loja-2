@@ -23,6 +23,5 @@ function limparCarrinho() {
   alert(`compra finalizada com sucesso, valor total: R$ ${totalPreco},00`);
   totalPreco = 0;
   total.textContent = totalPreco.toFixed(0);
-  // Limpa o carrinho e recarrega a página
   window.location.reload();
 }
